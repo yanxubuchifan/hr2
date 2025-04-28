@@ -5,7 +5,7 @@ import android.database.Cursor
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
 
-class DatabaseHelper(context: Context) : SQLiteOpenHelper(context, "MyDatabase.db", null, 1) {
+class DatabaseHelper(context: Context) : SQLiteOpenHelper(context, "MyDatabase.db", null, 2) { // 提升数据库版本号
 
     companion object {
         const val TABLE_NAME = "users"
